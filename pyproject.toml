@@ -18,3 +18,8 @@ python = "^3.6"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+
+[tool.poetry.source]
+name = "testpypi"
+url = "https://test.pypi.org/legacy/"
+
