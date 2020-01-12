@@ -16,7 +16,8 @@ def even():
         print('Question: {}'.format(number2))
         answer2 = prompt.string('Your answer: ')
     else:
-        print("'{}'".format(answer1) + " is wrong answer ;(. Correct answer was 'no'.")
+        print("'{}'".format(answer1) + " is wrong answer ;(.")
+        print("Correct answer was 'no'.")
         print("Let's try again, {}!".format(name))
         return
 
@@ -25,7 +26,8 @@ def even():
         print('Question: {}'.format(number3))
         answer3 = prompt.string('Your answer: ')
     else:
-        print("'{}'".format(answer2) + " is wrong answer ;(. Correct answer was 'yes'.")
+        print("'{}'".format(answer2) + " is wrong answer ;(.")
+        print("Correct answer was 'yes'.")
         print("Let's try again, {}!".format(name))
         return
 
@@ -33,5 +35,6 @@ def even():
         print('Correct!')
         print('Congratulations, {}!'.format(name))
     else:
-        print("'{}'".format(answer3) + " is wrong answer ;(. Correct answer was 'no'.")
+        print("'{}'".format(answer3) + " is wrong answer ;(.")
+        print("Correct answer was 'no'.")
         print("Let's try again, {}!".format(name))
