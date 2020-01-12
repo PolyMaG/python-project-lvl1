@@ -5,4 +5,4 @@
 [![Build Status](https://travis-ci.com/PolyMaG/python-project-lvl1.svg?branch=master)](https://travis-ci.com/PolyMaG/python-project-lvl1)
 
 [![asciicast](https://asciinema.org/a/MBSP6SUau11VChnpljMEbQSfo.svg)](https://asciinema.org/a/MBSP6SUau11VChnpljMEbQSfo)
-[![asciicast](https://asciinema.org/a/MBSP6SUau11VChnpljMEbQSfo.svg)](https://asciinema.org/a/MBSP6SUau11VChnpljMEbQSfo)
+[![asciicast](https://asciinema.org/a/ATdZpz4Lm22c8AvFKJTIzs66S.svg)](https://asciinema.org/a/ATdZpz4Lm22c8AvFKJTIzs66S)
