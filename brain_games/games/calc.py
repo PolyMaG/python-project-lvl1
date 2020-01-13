@@ -4,9 +4,11 @@ def calc():
 
     print('Welcome to the Brain Games!')
     print('What is the result of the expression?')
+    print()
 
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'. format(name))
+    print()
 
     i = 1
     while i <= 3:
@@ -35,4 +37,3 @@ def calc():
         i += 1
 
     print("Congratulations, {}!".format(name))
-    return
