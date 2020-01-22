@@ -1,28 +1,20 @@
-def calc():
+greeting = 'What is the result of the expression?'
+
+
+def round():
     from random import randint, choice
-    from brain_games.games.cli import run
-    from brain_games.games.ending import end
 
-    print('Welcome to the Brain Games!')
-    print('What is the result of the expression?')
-    print()
+    number1 = randint(1, 99)
+    number2 = randint(1, 99)
+    operator = choice('+-*')
 
-    name = run()
+    if operator == '+':
+        result = str(number1 + number2)
+    elif operator == '-':
+        result = str(number1 - number2)
+    else:
+        result = str(number1 * number2)
 
-    i = 1
-    while i <= 3:
-        number1 = randint(1, 99)
-        number2 = randint(1, 99)
-        operator = choice('+-*')
+    question = str(number1) + ' {} '.format(operator) + str(number2)
 
-        if operator == '+':
-            result = str(number1 + number2)
-        elif operator == '-':
-            result = str(number1 - number2)
-        else:
-            result = str(number1 * number2)
-
-        question = str(number1) + ' {} '.format(operator) + str(number2)
-        print('Question: {}'.format(question))
-
-        i = end(i, result, name)
+    return question, result

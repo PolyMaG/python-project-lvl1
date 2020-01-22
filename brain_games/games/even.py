@@ -1,22 +1,14 @@
-def even():
+greeting = 'Answer "yes" if number even otherwise answer "no".'
+
+
+def round():
     from random import randint
-    from brain_games.games.cli import run
-    from brain_games.games.ending import end
 
-    print('Welcome to the Brain Games!')
-    print('Answer "yes" if number even otherwise answer "no".')
-    print()
+    number = randint(1, 99)
+    question = number
+    if number % 2 == 0:
+        result = 'yes'
+    else:
+        result = 'no'
 
-    name = run()
-
-    i = 1
-    while i <= 3:
-        number = randint(1, 99)
-        if number % 2 == 0:
-            result = 'yes'
-        else:
-            result = 'no'
-
-        print('Question: {}'.format(number))
-
-        i = end(i, result, name)
+    return question, result
