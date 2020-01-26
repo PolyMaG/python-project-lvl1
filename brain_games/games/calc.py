@@ -1,20 +1,20 @@
-greeting = 'What is the result of the expression?'
+from random import randint, choice
+GREETING = 'What is the result of the expression?'
 
 
-def round():
-    from random import randint, choice
-
+def run():
     number1 = randint(1, 99)
     number2 = randint(1, 99)
     operator = choice('+-*')
 
     if operator == '+':
-        result = str(number1 + number2)
+        result = number1 + number2
     elif operator == '-':
-        result = str(number1 - number2)
+        result = number1 - number2
     else:
-        result = str(number1 * number2)
+        result = number1 * number2
 
-    question = str(number1) + ' {} '.format(operator) + str(number2)
+    result = str(result)
+    question = '{} {} {}'.format(str(number1), operator, str(number2))
 
     return question, result

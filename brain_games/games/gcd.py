@@ -1,11 +1,8 @@
-greeting = 'Find the greatest common divisor of given numbers.'
+from random import randint
+GREETING = 'Find the greatest common divisor of given numbers.'
 
 
-def round():
-    from random import randint
-
-    number1 = randint(1, 99)
-    number2 = randint(1, 99)
+def get_gcd(number1, number2):
     max_number = max(number1, number2)
     min_number = min(number1, number2)
 
@@ -14,6 +11,14 @@ def round():
         if max_number % gcd == 0 and min_number % gcd == 0:
             result = str(gcd)
         gcd += 1
+    return result
+
+
+def run():
+    number1 = randint(1, 99)
+    number2 = randint(1, 99)
+
+    result = get_gcd(number1, number2)
 
     question = '{} {}'.format(number1, number2)
 

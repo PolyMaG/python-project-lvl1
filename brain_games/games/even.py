@@ -1,12 +1,10 @@
-greeting = 'Answer "yes" if number even otherwise answer "no".'
+from random import randint
+GREETING = 'Answer "yes" if number even. Otherwise answer "no".'
 
 
-def round():
-    from random import randint
-
-    number = randint(1, 99)
-    question = number
-    if number % 2 == 0:
+def run():
+    question = randint(1, 99)
+    if question % 2 == 0:
         result = 'yes'
     else:
         result = 'no'

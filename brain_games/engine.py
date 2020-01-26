@@ -2,20 +2,21 @@ def engine(game):
     import prompt
 
     print('Welcome to the Brain Games!')
-    print(game.greeting)
+    print(game.GREETING)
     print()
 
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
     print()
 
+    rounds = 3
     i = 1
-    while i <= 3:
-        question, result = game.round()
+    while i <= rounds:
+        question, result = game.run()
         print('Question: {}'.format(question))
         answer = prompt.string('Your answer: ')
         if answer == result:
-            if i == 3:
+            if i == rounds:
                 print('Correct!')
                 print("Congratulations, {}!".format(name))
                 return
