@@ -14,29 +14,29 @@ There are several brain-games such as:
 
 To install games use [![testpypi](https://test.pypi.org/project/polymag-brain-games/#files)](https://test.pypi.org/project/polymag-brain-games/#files)
 
-After installind to run a game just input it's name in command line, for example ~/brain-prime
+After installing to run a game just input it's name in command line, for example ~/brain-prime
+
 
 
 ## Brain-even
-
 [![asciicast](https://asciinema.org/a/MBSP6SUau11VChnpljMEbQSfo.svg)](https://asciinema.org/a/MBSP6SUau11VChnpljMEbQSfo)
 
 
-## Brain-calc
 
+## Brain-calc
 [![asciicast](https://asciinema.org/a/ATdZpz4Lm22c8AvFKJTIzs66S.svg)](https://asciinema.org/a/ATdZpz4Lm22c8AvFKJTIzs66S)
 
 
-## Brain-gcd
 
+## Brain-gcd
 [![asciicast](https://asciinema.org/a/iORCargYJZALliVyhIGW09SZJ.svg)](https://asciinema.org/a/iORCargYJZALliVyhIGW09SZJ)
 
 
-## Brain-progression
 
+## Brain-progression
 [![asciicast](https://asciinema.org/a/IJ4ugI6ewAaP1QD4v0SeN5jxi.svg)](https://asciinema.org/a/IJ4ugI6ewAaP1QD4v0SeN5jxi)
 
 
-## Brain-prime
 
+## Brain-prime
 [![asciicast](https://asciinema.org/a/sSQa4YLHELInpUcU0oWUDRGVu.svg)](https://asciinema.org/a/sSQa4YLHELInpUcU0oWUDRGVu)
