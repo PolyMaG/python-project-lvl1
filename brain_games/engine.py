@@ -9,14 +9,14 @@ def engine(game):
     print('Hello, {}!'.format(name))
     print()
 
-    rounds = 3
+    roundscount = 3
     i = 1
-    while i <= rounds:
-        question, result = game.run()
+    while i <= roundscount:
+        question, result = game.generate_data()
         print('Question: {}'.format(question))
         answer = prompt.string('Your answer: ')
         if answer == result:
-            if i == rounds:
+            if i == roundscount:
                 print('Correct!')
                 print("Congratulations, {}!".format(name))
                 return

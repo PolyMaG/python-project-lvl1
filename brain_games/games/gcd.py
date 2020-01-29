@@ -14,7 +14,7 @@ def get_gcd(number1, number2):
     return result
 
 
-def run():
+def generate_data():
     number1 = randint(1, 99)
     number2 = randint(1, 99)
 

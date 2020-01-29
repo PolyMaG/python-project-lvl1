@@ -2,7 +2,7 @@ from random import randint, choice
 GREETING = 'What is the result of the expression?'
 
 
-def run():
+def generate_data():
     number1 = randint(1, 99)
     number2 = randint(1, 99)
     operator = choice('+-*')
@@ -14,7 +14,6 @@ def run():
     else:
         result = number1 * number2
 
-    result = str(result)
     question = '{} {} {}'.format(str(number1), operator, str(number2))
 
-    return question, result
+    return question, str(result)
