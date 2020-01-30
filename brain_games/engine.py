@@ -1,3 +1,6 @@
+roundscount = 3
+
+
 def engine(game):
     import prompt
 
@@ -9,7 +12,6 @@ def engine(game):
     print('Hello, {}!'.format(name))
     print()
 
-    roundscount = 3
     i = 1
     while i <= roundscount:
         question, result = game.generate_data()
