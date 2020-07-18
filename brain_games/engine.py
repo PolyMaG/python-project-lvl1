@@ -5,11 +5,11 @@ def engine(game):
     import prompt
 
     print('Welcome to the Brain Games!')
-    print(game.GREETING)
-    print()
-
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
+    print()
+
+    print(game.GREETING)
     print()
 
     i = 1
@@ -20,10 +20,10 @@ def engine(game):
         if answer == result:
             if i == roundscount:
                 print('Correct!')
-                print("Congratulations, {}!".format(name))
+                print('Congratulations, {}!'.format(name))
                 return
             else:
-                print('Correct!')
+                print('Correct, {}!'.format(name))
                 i += 1
 
         else:
